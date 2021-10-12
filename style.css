@@ -1,0 +1,171 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.black-background {
+  background: #1f2937;
+  padding: 16px 100px;
+}
+
+.header {
+  color: #f9faf8;
+  font-weight: bolder;
+  font-size: 24px;
+  margin-left: 40px;
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link {
+  color: #e5e7eb;
+  font-weight: normal;
+  font-size: 18px;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.hero {
+  color: #f9faf8;
+  padding: 4em 0 8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 48px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+  max-width: 400px;
+}
+
+.secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 8px 0 16px;
+  max-width: 400px;
+}
+
+#button {
+  color: white;
+  background: #3882f6;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 8px 32px;
+}
+
+.hero-image {
+  background-color: rgb(115, 123, 128);
+  width: 10%;
+  height: 10%;
+  white-space: pre;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.info-header-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1em;
+}
+
+.info {
+  margin: 0 16em 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.info img {
+  border-radius: 10px;
+  border: 2px solid #3882f6;
+  height: 150px;
+  width:  150px;
+  display: flex;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-text .secondary-text {
+  color: grey;
+  text-align: center;
+}
+
+.quote {
+  background: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  padding: 3em 6em;
+}
+
+.quote-text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.quote-author {
+  color: #1f2937;
+  font-weight: bolder;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  margin: 4em 8em;
+  border-radius: 5px;
+  border: 2px solid #3882f6;
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6em;
+}
+
+.sign-up-text .main-text {
+  font-size: 24px;
+}
+
+.sign-up-text .secondary-text {
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.sign-up #button {
+  border-color: #f9faf8;
+}
+
+.footer {
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
