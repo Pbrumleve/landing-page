@@ -4,30 +4,26 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex: 0 1 auto;
 }
 
 .black-background {
   background: #1f2937;
-  padding: 16px 100px;
 }
 
 .header {
   color: #f9faf8;
   font-weight: bolder;
   font-size: 24px;
-  margin-left: 40px;
-  padding-bottom: 1em;
+  margin: 1em;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .header-link {
-  color: #e5e7eb;
-  font-weight: normal;
   font-size: 18px;
   display: flex;
-  gap: 16px;
+  gap: 1em;
 }
 
 a {
@@ -37,47 +33,41 @@ a {
 
 .hero {
   color: #f9faf8;
-  padding: 4em 0 8em;
+  margin: 5em 13em 5em 11em;
   display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 48px;
+  justify-content: space-around;
+  gap: 32px;
 }
 
 ul {
   list-style-type: none;
+  max-width: 400px;
 }
 
 .main-text {
   color: #f9faf8;
   font-size: 48px;
   font-weight: bold;
-  max-width: 400px;
 }
 
 .secondary-text {
   color: #e5e7eb;
   font-size: 18px;
-  margin: 8px 0 16px;
-  max-width: 400px;
+  margin-bottom: 1em;
 }
 
-#button {
+.button {
   color: white;
-  background: #3882f6;
   font-weight: bold;
-  border-radius: 6px;
   padding: 8px 32px;
+  background: #3882f6;
+  border-radius: 6px;
 }
 
 .hero-image {
   background-color: rgb(115, 123, 128);
-  width: 10%;
-  height: 10%;
   white-space: pre;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
 .info-header-text {
@@ -89,29 +79,28 @@ ul {
 }
 
 .info {
-  margin: 0 16em 6em;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
 }
 
 .info img {
   border-radius: 10px;
-  border: 2px solid #3882f6;
+  border: 3px solid #3882f6;
   height: 150px;
   width:  150px;
-  display: flex;
 }
 
 .info-text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 150px;
+  margin: 0 2em 6em;
 }
 
 .info-text .secondary-text {
-  color: grey;
+  color: rgb(82, 81, 81);
   text-align: center;
 }
 
@@ -158,8 +147,8 @@ ul {
   margin: 0 auto;
 }
 
-.sign-up #button {
-  border-color: #f9faf8;
+a .button {
+  border: 2px solid white;
 }
 
 .footer {
